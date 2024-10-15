@@ -1,0 +1,151 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gaya Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #1e88e5;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #90caf9;
+}
+
+/* Headline */
+.headline {
+    background-color: #e3f2fd;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.headline h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.headline p {
+    font-size: 18px;
+    
+}
+
+/* Artikel Berita */
+.news {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.news article {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.news article h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #1e88e5;
+}
+
+.keterangan1 {
+    font-size: 0.875em;  
+    color: rgba(0, 0, 0, 0.5);  
+}
+.imgkom{
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+}
+ .tanggal1 {
+    font-size: 0.650em; 
+    color: black;
+    font-weight: bold;
+ }
+ .keterangan2 {
+    font-size: 0.875em;  
+    color: rgba(0, 0, 0, 0.5);  
+}
+.imgpohon {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+}
+.tanggal2 {
+    font-size: 0.650em; 
+    color: black;
+    font-weight: bold;
+}
+
+.keterangan3 {
+    font-size: 0.875em;  
+    color: rgba(0, 0, 0, 0.5);  
+}
+.imgsmk{
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+}
+.tanggal3 {
+    font-size: 0.650em; 
+    color: black;
+    font-weight: bold;
+}
+
+.keterangan4 {
+    font-size: 0.875em;  
+    color: rgba(0, 0, 0, 0.5);  
+}
+.imgwanita {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+}
+.tanggal4 {
+    font-size: 0.650em; 
+    color: black;
+    font-weight: bold;
+}
+/* Footer */
+footer {
+    background-color: #1e88e5;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
